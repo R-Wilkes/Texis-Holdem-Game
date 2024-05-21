@@ -1,1 +1,2 @@
-Just play some Texis Holdem againt 2 bots in the CLI, very buggy, but good luck
+# Info
+Cool little APCSA Project, so just have fun playing against 2 bots
