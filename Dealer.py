@@ -206,7 +206,7 @@ class Dealer:
                     self.difficlutyChoice = "random"
                     return random.uniform(1.1, 3.5)
 
-                elif (choice.lower()).strip() == "Impossible" or self.difficlutyChoice == "Impossible":
+                elif (choice.lower()).strip() == "impossible" or self.difficlutyChoice == "impossible":
 
                     print("Feeling Lucky???")
                     sleep(3)
@@ -237,4 +237,3 @@ class Dealer:
 
                 self.difficlutyChoice = "impossible"
                 return 5
-

@@ -165,21 +165,4 @@ while True:
         dealer.resetGame(player, bot1, bot2)
 
     sleep(1)
-
-
-
-
-
-# # Deal some cards
-# board = [deck.draw(1)[0] for _ in range(5)]  # Correctly extract each card from the list
-# hand = [deck.draw(1)[0] for _ in range(2)]   # Correctly extract each card from the list
-
-# # Print cards in a readable format
-# print("Board:", [Card.int_to_pretty_str(card) for card in board])
-# print("Hand:", [Card.int_to_pretty_str(card) for card in hand])
-
-# # Evaluate the hand
-# score = evaluator.evaluate(hand, board)
-# hand_class = evaluator.get_rank_class(score)
-
-# print("Hand class:", evaluator.class_to_string(hand_class))
+    
