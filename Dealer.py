@@ -23,7 +23,7 @@ class Dealer:
         self.currentBet = 0
         self.canCheck = True
         self.evaluator = Evaluator()
-        self.cheats = True
+        self.cheats = False
         self.difficlutyChoice = None
     
     # Changes the check
