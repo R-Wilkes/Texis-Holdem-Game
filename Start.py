@@ -165,4 +165,3 @@ while True:
         dealer.resetGame(player, bot1, bot2)
 
     sleep(1)
-    
