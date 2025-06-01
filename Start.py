@@ -13,11 +13,11 @@ startingMoney = 1000
 
 # Initialize dealer and players
 dealer = Dealer.Dealer("Dealer", deck)
-player = Person.Person("Ricker", startingMoney, dealer.dealCards())
+player = Person.Person("Human", startingMoney, dealer.dealCards())
 
 # Difficulty ranges from 1.1 to 3.5
-bot1 = Bot.Bot("AI1", startingMoney, dealer.dealCards(), dealer.difficultyDecider())
-bot2 = Bot.Bot("AI2", startingMoney, dealer.dealCards(), dealer.difficultyDecider())
+bot1 = Bot.Bot("Bot1", startingMoney, dealer.dealCards(), dealer.difficultyDecider())
+bot2 = Bot.Bot("Bot2", startingMoney, dealer.dealCards(), dealer.difficultyDecider())
 
 # Starts the game
 dealer.startGame()
